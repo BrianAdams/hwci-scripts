@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-cd $BASH_SOURCE && source ./env.sh
+cd `dirname $BASH_SOURCE`/../ && source ./env.sh
 
 $CURL --location http://cpanmin.us --output $BIN/cpanm && chmod +x $BIN/cpanm
 CPANM="${PERL} ${BIN}/cpanm --local-lib=${LIB}/perl"
