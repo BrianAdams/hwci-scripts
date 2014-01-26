@@ -14,4 +14,4 @@ $MAKE $@ \
   USER_LIB_PATH="${USER_LIB_PATH}" \
   RESET_CMD="${RUN_ARDMK_SCRIPTS}/ard-reset-arduino" \
   PARSE_BOARD="${RUN_ARDMK_SCRIPTS}/ard-parse-boards" \
-  -I"${ARDMK_DIR}/arduino-mk"
+  -I"${ARDMK_DIR}"
